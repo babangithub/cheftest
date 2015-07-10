@@ -1,0 +1,6 @@
+#!/bin/env ruby
+
+puts "---this is ikasama make---"
+arg = ARGV
+arg = [] if arg == ["-j", "5"]
+system("/usr/bin/make #{arg.join(' ')}")
