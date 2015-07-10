@@ -12,6 +12,5 @@ ssl_verify_mode           :verify_peer
 
 cookbook_path []
 cookbook_path << File.join(base, 'cookbooks-1') # /usr/local/lib/ruby/gems/2.2.0/gems/knife-solo-0.4.2/lib/knife-solo/resources/patch_cookbooks
-cookbook_path << File.join(base, 'cookbooks-2') # /root/cookbooks
-cookbook_path << File.join(base, 'cookbooks-3') # /root/site-cookbooks
+cookbook_path << File.join(base, 'cookbooks-2') # /root/cheftest/site-cookbooks
 
